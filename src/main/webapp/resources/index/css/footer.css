@@ -1,0 +1,89 @@
+.footer-site {
+	background-color: #f8f1e4;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.footer-site .footer {
+	padding-left: 30px;
+	color: #aeaeae;
+	padding-top: 30px;
+	width: 100%;
+	float: left;
+	padding-bottom: 30px;
+}
+
+.footer-site .footer h5 {
+	font-size: 21px;
+	width: 100%;
+	color: #252825;
+}
+
+.footer-site .footer .list_menu {
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+.footer-site .footer .list_menu li {
+	list-style: none;
+}
+
+.footer-site .footer .list_menu li a {
+	display: inline;
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.footer-site .footer .list_menu li a:hover {
+	color: green;
+}
+
+.footer-site .footer .social ul {
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.footer-site .footer .social ul li {
+	background: #696b6a;
+	border-radius: 100%;
+	float: left;
+	height: 54px;
+	width: 54px;
+	list-style: none outside none;
+	text-decoration: none;
+}
+
+.twitter {
+	margin-left: 24px;
+	margin-right: 12px;
+}
+
+.google {
+	margin-left: 12px;
+	margin-right: 24px;
+}
+
+.footer-site .footer .social ul li a {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 52px;
+	font-size: 26px;
+	display: block;
+	color: #252825;
+	text-decoration: none;
+}
+
+.footer-site .footer .social ul li a span {
+	display: none;
+	text-decoration: none;
+}
+
+.footer-site .footer .social ul li a:hover {
+	color: white;
+}
+
+.footer-site .footer .copyright {
+	padding-top: 30px;
+	color: #252825;
+}

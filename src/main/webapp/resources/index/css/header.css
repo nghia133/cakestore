@@ -1,0 +1,146 @@
+.navbar-brand {
+	color: black;
+}
+
+#header-top {
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+#navbarResponsive ul li {
+	padding-left: 25px;
+	list-style-type: none;
+}
+
+#navbarResponsive ul li a {
+	text-decoration: none;
+}
+
+.nav-link {
+	color: black;
+}
+
+.active {
+	color: white;
+}
+
+.active a {
+	color: #FFBF00 !important;
+}
+
+#navbarResponsive ul li a:hover {
+	color: #DEB887 !important;
+}
+
+.dropdown-menu {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.dropdown-menu a {
+	color: #fff;
+}
+
+.dropdown-item:hover {
+	background-color: transparent;
+}
+
+#demo-2 input {
+	float: right;
+}
+
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+input {
+	outline: none;
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+input::-webkit-search-decoration, input::-webkit-search-cancel-button {
+	display: none;
+}
+
+input[type=search] {
+	background: #ededed
+		url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png)
+		no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 20px;
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	-webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+	-moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+	box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+
+input:-moz-placeholder {
+	color: #999;
+}
+
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+.icon-bar {
+	border: none !important;
+	display: block;
+	height: 2px;
+	width: 25px;
+	background: #fff !important;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	transition: all .3s ease 0s !important;
+}
+
+.icon-bar:before, .icon-bar:after {
+	background: #fff;
+	content: "";
+	height: 100% !important;
+	left: 0px;
+	position: absolute;
+	bottom: -6px;
+	right: 0;
+}
+
+.icon-bar:after {
+	bottom: -12px;
+	left: 0px;
+	top: auto;
+	height: 100%;
+}
+
+@media ( max-width : 767px) {
+	.navbar-toggler {
+		display: block;
+	}
+}
